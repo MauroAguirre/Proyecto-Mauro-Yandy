@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 97f1163c42e063e4c9b2045a13aa3d2d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: macaco 1.1
+    21300002: macaco 1.1_0
+    21300004: macaco 1.1_1
+    21300006: macaco 1.1_2
+    21300008: macaco 1.1_3
+    21300010: macaco 1.1_4
+    21300012: macaco 1.1_5
+    21300014: macaco 1.1_6
+    21300016: macaco 1.1_7
+    21300018: macaco 1.1_8
+    21300020: macaco 1.1_9
+    21300022: macaco 1.1_10
+    21300024: macaco 1.1_11
+    21300026: macaco 1.1_12
+    21300028: macaco 1.1_13
+    21300030: macaco 1.1_14
+    21300032: macaco 1.1_15
+    21300034: macaco 1.1_16
+    21300036: macaco 1.1_17
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: macaco 1.1_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 267
+        width: 18
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f61f3760ad8591429ceca4e3c084471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 267
+        width: 19
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac526b05a8d9b429c85a52e632cff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 267
+        width: 19
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ccc96d029528438c5466ffce69bec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 267
+        width: 18
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93aa11a80ad574ea171e83bf197295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 203
+        width: 18
+        height: 25
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec29bac485f0a5e4ead6aa7d7029586d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 203
+        width: 26
+        height: 41
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4003f97e327615469a75ab013ae28b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 203
+        width: 35
+        height: 46
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4795e1fbbaddd429fbc41e1eacea8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 203
+        width: 33
+        height: 36
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7125b8df1d7f4e8fe609fe39f43b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 139
+        width: 43
+        height: 25
+      alignment: 9
+      pivot: {x: 0.60420483, y: -0.0019818116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdc2bf3324199b45a994d00745c0852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 139
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.35717094, y: 0.0063970946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def95b1fdc1112d4483e4bdaba3ea9c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 139
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.36833304, y: 0.008760986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2120fb7066c64e64697259a634f54b57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 139
+        width: 35
+        height: 25
+      alignment: 9
+      pivot: {x: 0.2876225, y: 0.0044519044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0cda4594c4d6a4c8cc9f8012f4d142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 75
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.24863483, y: -0.004166565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae0e20b871292b469faa513ed7df119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 75
+        width: 39
+        height: 25
+      alignment: 9
+      pivot: {x: 0.2541594, y: 0.008760986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d4b232e2985bf44b9d8972d0a84d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 75
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.36035326, y: 0.013070068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019c1120e0dc9242b527abfa6bb5798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 75
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.8635826, y: 0.010735829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c9bab0f353a54193501842c3f9c31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 12
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.93658185, y: -0.0058527407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55479c33b33ac92448a5f37586f339df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: macaco 1.1_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 12
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0.65308744, y: -0.0058527407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288850b305345c84e85e2a9c6a485a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f89fe6d710888a84d9a3c204f8023f0f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 18
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

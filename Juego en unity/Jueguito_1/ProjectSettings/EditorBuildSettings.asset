@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu_Inicio.unity
     guid: d27be95f1e707d64caa03357cbf80c9b
   - enabled: 1
-    path: Assets/Scenes/Menu_Otro.unity
+    path: Assets/Scenes/Menu_Controles.unity
     guid: d058ead40e5db5e49bf299f302614313
+  - enabled: 1
+    path: Assets/Scenes/Experimento.unity
+    guid: d724956d3e599354a933923e3b28dcd2
   m_configObjects: {}
