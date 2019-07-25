@@ -55,20 +55,53 @@
   <ItemGroup>
      <Compile Include="Assets\Personajes\Jugador\Jugador_controles.cs" />
      <Compile Include="Assets\Scrips\Controlador.cs" />
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Editor">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Runtime">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Triangle.Runtime">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>E:/Proyecto Mauro Yandy/Juego en unity/Jueguito_1/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
