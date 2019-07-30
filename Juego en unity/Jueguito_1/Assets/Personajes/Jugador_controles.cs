@@ -10,6 +10,7 @@ public class Jugador_controles : MonoBehaviour
     public float velocidad_salto = 0f;
     public float gravedad = 0.5f;
     public int atacar = 0;
+    private bool movio = false;
     private Animator animator;
     private SpriteRenderer sprite;
     public GameObject zonaAtaque;
@@ -50,9 +51,10 @@ public class Jugador_controles : MonoBehaviour
                 }
                 else
                 {
-                    PuedeMoverse();
+                    movio = PuedeMoverse(movio);
                 }
-                PuedeSaltar();
+                movio = PuedeSaltarMover(movio);
+                movio = PuedeSaltar(movio);
                 break;
             case 1:
                 animator.SetInteger("estado", 0);
@@ -62,7 +64,7 @@ public class Jugador_controles : MonoBehaviour
                     animator.SetInteger("estado", 2);
                     atacar = 1;
                 }
-                PuedeMoverSaltar();
+                movio = PuedeSaltarMover(movio);      
                 break;
             case 2:
                 if (Input.GetKey(KeyCode.G) && atacar==2)
@@ -116,77 +118,82 @@ public class Jugador_controles : MonoBehaviour
     {
         atacar = 2;
     }
-    public void PuedeMoverse()
+    public bool PuedeMoverse(bool movio)
     {
-        if (Input.GetKey(KeyCode.A))
+        if (!movio)
         {
-            this.transform.position += new Vector3(-velocidad_movimiento * Time.deltaTime, 0, 0);
-            animator.SetInteger("estado", 1);
-            if (!direccion)
+            if (Input.GetKey(KeyCode.A))
             {
-                direccion = true;
-                sprite.flipX = true;
-            }
-        }
-        else
-        {
-            if (Input.GetKey(KeyCode.D))
-            {
-                this.transform.position += new Vector3(+velocidad_movimiento * Time.deltaTime, 0, 0);
+                this.transform.position += new Vector3(-velocidad_movimiento * Time.deltaTime, 0, 0);
                 animator.SetInteger("estado", 1);
-                if (direccion)
+                if (!direccion)
                 {
-                    direccion = false;
-                    sprite.flipX = false;
+                    direccion = true;
+                    sprite.flipX = true;
                 }
-            }
-        }
-    }
-    public void PuedeSaltar()
-    {
-        //saltar
-        if (Input.GetKey(KeyCode.W))
-        {
-            this.velocidad_salto = potencia_salto;
-            this.transform.position += new Vector3(0, +potencia_salto * Time.deltaTime, 0);
-            animator.SetInteger("estado", 3);
-        }
-    }
-    public void PuedeMoverSaltar()
-    {
-        if (Input.GetKey(KeyCode.A))
-        {
-            this.transform.position += new Vector3(-velocidad_movimiento * Time.deltaTime, 0, 0);
-            animator.SetInteger("estado", 1);
-            if (!direccion)
-            {
-                direccion = true;
-                sprite.flipX = true;
-            }
-        }
-        else
-        {
-            if (Input.GetKey(KeyCode.D))
-            {
-                this.transform.position += new Vector3(+velocidad_movimiento * Time.deltaTime, 0, 0);
-                animator.SetInteger("estado", 1);
-                if (direccion)
-                {
-                    direccion = false;
-                    sprite.flipX = false;
-                }
+                return true;
             }
             else
             {
-
-                
+                if (Input.GetKey(KeyCode.D))
+                {
+                    this.transform.position += new Vector3(+velocidad_movimiento * Time.deltaTime, 0, 0);
+                    animator.SetInteger("estado", 1);
+                    if (direccion)
+                    {
+                        direccion = false;
+                        sprite.flipX = false;
+                    }
+                    return true;
+                }
             }
         }
-        if (Input.GetKey(KeyCode.W))
+        return false;
+    }
+    public bool PuedeSaltar(bool movio)
+    {
+        if (!movio)
         {
-            this.velocidad_salto = potencia_salto;
-            this.transform.position += new Vector3(0, +potencia_salto * Time.deltaTime, 0);
-            animator.SetInteger("estado", 3);
+            if (Input.GetKey(KeyCode.W))
+            {
+                this.velocidad_salto = potencia_salto;
+                this.transform.position += new Vector3(0, +potencia_salto * Time.deltaTime, 0);
+                animator.SetInteger("estado", 3);
+                return true;
+            }
         }
+        return false;
+    }
+    public bool PuedeSaltarMover(bool movio)
+    {
+        if (!movio)
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                this.transform.position += new Vector3(-velocidad_movimiento * Time.deltaTime, 0, 0);
+                animator.SetInteger("estado", 1);
+                if (!direccion)
+                {
+                    direccion = true;
+                    sprite.flipX = true;
+                }
+                movio = PuedeSaltar(movio);
+            }
+            else
+            {
+                if (Input.GetKey(KeyCode.D))
+                {
+                    this.transform.position += new Vector3(+velocidad_movimiento * Time.deltaTime, 0, 0);
+                    animator.SetInteger("estado", 1);
+                    if (direccion)
+                    {
+                        direccion = false;
+                        sprite.flipX = false;
+                    }
+                    movio = PuedeSaltar(movio);
+                }
+            }
+        }
+        return false;
     }
 }
